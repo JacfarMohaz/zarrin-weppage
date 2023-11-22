@@ -327,6 +327,7 @@ display: flex;
     .development{
         margin: 0;
         padding: 0;
+        padding-top: 30px;
     }
     .development img{
         width: 400px;

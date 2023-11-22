@@ -219,26 +219,64 @@ display: flex;
     padding-bottom: 10px;
 }
 
+/* pouplar2 section */
+
+.popular2{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 90px;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+/* footer section */
+
+
 .get{
     background-color: #7c4ee4;
 }
 .get h1{
     color: white;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 120px;
+    font-size: 50px;
+    font-weight: 700;
 }
 .email{
-    padding-left: 580px;
+    padding-left: 650px;
     padding-top: 20px;
+    display: flex;
 }
-
 .get p{
     padding-left: 580px;
     padding-top: 30px;
 }
+.email input{
+    padding: 15px 30px 15px 30px;
+    border-radius: 12px;
+    border: none;
+}
+.email button{
+    padding: 15px 20px 15px 30px;
+    background-color: #7c4ee4;
+    color: white;
+    border: 1px solid white;
+    border-radius: 12px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.get p{
+    color: gray;
+    padding-left: 650px;
+}
+.get span{
+    line-height: 35px;
+    padding-left: 90px;
+}
 
 
-@media (max-width: 600px){
+@media (max-width: 767px){
     #menu-icon{
         display: flex;
         font-size: 30px;
@@ -320,13 +358,15 @@ display: flex;
     .post{
         padding: 0;
         margin: 0;
+        padding-right: 15px;
         padding-top: 90px;
     }
     .post h1{
-        font-size: 10px;
+        font-size: 15px;
+        padding-top: 10px;
     }
     .post button{
-        padding: 20px;
+        padding: 10px;
         margin: 0px;
     }
     .popular{
@@ -334,6 +374,48 @@ display: flex;
         padding: 0;
         margin: 0;
         padding-top: 30px;
+        padding-left: 12px;
+    }
+    .popular2{
+        display: block;
+        padding: 0;
+        margin: 0;
+        padding-top: 30px;
         padding-left: 10px;
+    }
+    .box{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .box h4{
+        padding-right: 15px;
+        font-size: 13px;
+    }
+
+    .get h1{
+        font-size: 25px;
+    }
+    .email{
+        padding: 0;
+        margin-left: 20px;
+        padding-top: 40px;
+        display: block;
+    }
+    .email input{
+        padding: 20px 80px;
+        margin-left: 15px;
+    }
+    .email button{
+        margin-top: 20px;
+        padding: 20px 110px;
+        font-size: 20px;
+    }
+    .get p{
+        padding: 0;
+        padding-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 15px;
+        padding-bottom: 10px;
     }
 }
